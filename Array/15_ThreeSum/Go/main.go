@@ -9,8 +9,6 @@ func ThreeSum(nums []int) {
 	// sorted
 	sort.Ints(nums)
 	// nums => [-4, -1, -1, 0, 1, 2]
-
-	result := []int{}
 	for i := 0; i < len(nums)-2; i++ {
 
 		// remove duplicate
